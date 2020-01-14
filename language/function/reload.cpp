@@ -1,8 +1,9 @@
 #include <iostream>
 
 using  namespace std;
-
-int min(int a, int b , int c){
+//以下两个方法用于测试函数重载，方法体不同
+//方法覆盖（重写）用于在继承时重写方法内部逻辑，方法体相同
+int min(int a, int b , int c){ 
     if (a > b ) a = b;
     if (a > c ) a = c ;
     return a;

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-template <typename T> //这是模板，
+template <typename T> //这是模板.
 T min (T a , T b, T c){
     if (a > b) a = b;
     if (a > c) a = c ;
