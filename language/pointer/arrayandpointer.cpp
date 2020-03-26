@@ -17,12 +17,12 @@ int main(){
     double b[2] = {1.1,2.2};
     double *p3 =b;
     cout<<*p3<<" "<< *(p3+1)<<" "<< sizeof(double)<<endl;
-    //测试各个类型所占Byte
+    //测试各个类型所占Byte 64bit win10
     cout<<"char:"<<sizeof(char)<<endl; //1
     cout<<"int:"<<sizeof(int)<<endl; //4
     cout<<"long:"<<sizeof(long)<<endl; //4
     cout<<"double:"<<sizeof(double)<<endl;//8
-    cout<<"long long:"<<sizeof(long long)<<endl;
+    cout<<"long long:"<<sizeof(long long)<<endl; //8
 
     //上面是数组的指针，下面来看下指针数组
     int x =1,y=2;
