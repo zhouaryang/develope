@@ -93,7 +93,7 @@ public:
         // 求和后放到sum1
         sum1 = sum1 + sum2;
         ListNode *l9 = new ListNode(0);
-        ListNode *l = new ListNode(0);
+        ListNode *l = new ListNode(0); l =l9;
         //遍历，可能有进位，需要多添加一位
         for(int i=0 ; i< max(len1,len2);i++){
             ListNode *l10 = new ListNode(0);
